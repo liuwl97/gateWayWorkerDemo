@@ -47,8 +47,8 @@ class Index extends HomeBase
         $toid = input('param.toid/d',0);
         $room_id = input('param.room_id/d',0);
         $send_mess = input('param.send_mess','');
-        $chat_type = input('param.chat_type/d',1); //1聊天；2打赏
-        $res = model('chat_list')->MQTTSaveMess($chat_type,$room_id,$fromid,$toid,$send_mess);dump($res);
+        $chat_type = input('param.chat_type/d',1); 
+        $res = model('chat_list')->MQTTSaveMess($chat_type,$room_id,$fromid,$toid,$send_mess);
         return json($res);
     }
     public function MQTTgetUserMes(){
