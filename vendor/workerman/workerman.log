@@ -1,0 +1,54 @@
+2020-03-29 17:00:24 pid:1 think\exception\ErrorException: Undefined variable: t in D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\app\home\controller\Demo.php:41
+Stack trace:
+#0 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\app\home\controller\Demo.php(41): think\Error::appError(8, 'Undefined varia...', 'D:\\software\\php...', 41, Array)
+#1 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\workerman\workerman\Connection\TcpConnection.php(658): app\home\controller\Demo->app\home\controller\{closure}(Object(Workerman\Connection\TcpConnection), Object(Workerman\Protocols\Http\Request))
+#2 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\workerman\workerman\Events\Select.php(292): Workerman\Connection\TcpConnection->baseRead(Resource id #69)
+#3 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\app\home\controller\Demo.php(45): Workerman\Worker::runAll()
+#8 [internal function]: app\home\controller\Demo->index()
+#9 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\thinkphp\library\think\App.php(234): ReflectionMethod->invokeArgs(Object(app\home\controller\Demo), Array)
+#10 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\thinkphp\library\think\App.php(404): think\App::invokeMethod(Array, Array)
+#11 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\thinkphp\library\think\App.php(140): think\App::module(Array, Array, true)
+#12 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\thinkphp\start.php(18): think\App::run()
+#13 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\index.php(22): require('D:\\software\\php...')
+#14 {main}
+2020-03-29 17:00:24 pid:1 Worker process terminated
+2020-03-29 17:01:07 pid:1 think\exception\ErrorException: Undefined variable: t in D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\app\home\controller\Demo.php:41
+Stack trace:
+#0 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\app\home\controller\Demo.php(41): think\Error::appError(8, 'Undefined varia...', 'D:\\software\\php...', 41, Array)
+#1 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\workerman\workerman\Connection\TcpConnection.php(658): app\home\controller\Demo->app\home\controller\{closure}(Object(Workerman\Connection\TcpConnection), Object(Workerman\Protocols\Http\Request))
+#2 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\workerman\workerman\Events\Select.php(292): Workerman\Connection\TcpConnection->baseRead(Resource id #69)
+#3 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\app\home\controller\Demo.php(45): Workerman\Worker::runAll()
+#8 [internal function]: app\home\controller\Demo->index()
+#9 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\thinkphp\library\think\App.php(234): ReflectionMethod->invokeArgs(Object(app\home\controller\Demo), Array)
+#10 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\thinkphp\library\think\App.php(404): think\App::invokeMethod(Array, Array)
+#11 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\thinkphp\library\think\App.php(140): think\App::module(Array, Array, true)
+#12 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\thinkphp\start.php(18): think\App::run()
+#13 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\index.php(22): require('D:\\software\\php...')
+#14 {main}
+2020-03-29 17:01:07 pid:1 Worker process terminated
+2020-03-29 17:05:34 pid:1 think\exception\ErrorException: Undefined variable: t in D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\app\home\controller\Demo.php:41
+Stack trace:
+#0 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\app\home\controller\Demo.php(41): think\Error::appError(8, 'Undefined varia...', 'D:\\software\\php...', 41, Array)
+#1 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\workerman\workerman\Connection\TcpConnection.php(658): app\home\controller\Demo->app\home\controller\{closure}(Object(Workerman\Connection\TcpConnection), Object(Workerman\Protocols\Http\Request))
+#2 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\workerman\workerman\Events\Select.php(292): Workerman\Connection\TcpConnection->baseRead(Resource id #69)
+#3 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\app\home\controller\Demo.php(45): Workerman\Worker::runAll()
+#8 [internal function]: app\home\controller\Demo->index()
+#9 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\thinkphp\library\think\App.php(234): ReflectionMethod->invokeArgs(Object(app\home\controller\Demo), Array)
+#10 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\thinkphp\library\think\App.php(404): think\App::invokeMethod(Array, Array)
+#11 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\thinkphp\library\think\App.php(140): think\App::module(Array, Array, true)
+#12 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\thinkphp\start.php(18): think\App::run()
+#13 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\index.php(22): require('D:\\software\\php...')
+#14 {main}
+2020-03-29 17:05:34 pid:1 Worker process terminated

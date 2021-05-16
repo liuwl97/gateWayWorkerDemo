@@ -1,0 +1,22 @@
+2020-03-30 14:02:21 pid:1 Exception: You can't send(array) to client, you need to convert it to a string.  in D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\GatewayWorker\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(344): Workerman\Protocols\Websocket::encode(Array, Object(Workerman\Connection\TcpConnection))
+#1 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(765): Workerman\Connection\TcpConnection->send(Array)
+#2 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(658): GatewayWorker\Gateway->onWorkerMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\GatewayWorker\vendor\workerman\workerman\Events\Select.php(292): Workerman\Connection\TcpConnection->baseRead(Resource id #30)
+#4 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\GatewayWorker\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#5 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(276): Workerman\Worker->run()
+#6 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\GatewayWorker\vendor\workerman\workerman\Worker.php(1404): GatewayWorker\Gateway->run()
+#7 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\GatewayWorker\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#8 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\GatewayWorker\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#9 D:\software\phpstudy\PHPTutorial\WWW\www.workermandemo.com\vendor\GatewayWorker\Applications\YourApp\start_gateway.php(63): Workerman\Worker::runAll()
+#10 {main}
+2020-03-30 14:02:21 pid:1 Worker process terminated
+2021-05-08 15:44:21 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
+2021-05-08 15:44:22 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
+2021-05-08 15:44:23 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
+2021-05-08 15:44:24 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
+2021-05-08 15:44:26 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
+2021-05-08 15:44:27 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
+2021-05-08 15:44:28 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
+2021-05-08 15:44:29 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:YourAppBusinessWorker:0
