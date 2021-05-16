@@ -1,1 +1,0 @@
-<img src='/public/static/zhncom/emoji/qq/2.png' border='0'  width='25' height='25'>
